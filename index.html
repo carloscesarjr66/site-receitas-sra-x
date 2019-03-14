@@ -4,13 +4,50 @@
         <link rel="shortcut icon" href="imagens/favicon.ico" />
         <meta  charset="utf-8" />
        <title> Receitas Sra. X </title>
+       <style type="text/css">
+    #esquerda {
+        background-color: purple;
+        float:left;
+        width: 60%;
+    }
+    #direita {
+        float: right;
+        width: 40%;
+        background-color: green;
+        display: flex;
+    }
+    #menu {
+       text-align: center;
+
+    }
+    #menu ul {
+       text-align: center;
+       padding: 20% 0;
+       background-color: #060;
+    }
+    #menu li {
+       display: inline;
+       padding: 20px;
+       border-right: 2px #030 solid; 
+    }
+    #menu li:last-child {
+       border-right: none;
+    }
+    #menu a {
+        text-decoration: none;
+        color: white;
+        font: 20px arial;
+        font-weight: bold;
+
+    }
+</style>
    </head>
    <body>
 <div id="cabecalho">
  <div id="banner">
      <!--Inserir a figura do banner -->
  </div>
- <div id="Menu">
+ <div id="menu">
      <ul>
          <li><a href="index.html">Home</a></li>
          <li><a href="cadastrar.html">Cadastrar Receita</a></li>
